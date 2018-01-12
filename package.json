@@ -1,0 +1,29 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "UI Functional Test Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=default && wdio wdio.conf.js",
+    "testenv": "export NODE_ENV=test && wdio wdio.conf.js",
+    "eng01": "export NODE_ENV=eng01 && wdio wdio.conf.js",
+    "staging": "export NODE_ENV=staging && wdio wdio.conf.js",
+    "browserstack": "export NODE_ENV=eng01 && wdio browserstack.wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browserstack-local": "^1.3.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "config": "^1.28.1",
+    "wdio-browserstack-service": "^0.1.13",
+    "wdio-mocha-framework": "^0.5.11",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.3",
+    "webdriverio": "^4.9.11"
+  }
+}
