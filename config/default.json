@@ -2,12 +2,12 @@
 	"app": {
 		"url": "http://localhost:3000/",
 		"admin": {
-			"username": "riffyn.test.1",
-			"password": "Riffyn.12345"
+			"username": "test.1",
+			"password": "12345"
 		},
 		"non_admin": {
-			"username": "riffyn.test.2",
-			"password": "Riffyn.12345"
+			"username": "test.2",
+			"password": "12345"
 		}
 	}
 }

@@ -6,9 +6,9 @@
   "scripts": {
     "test": "export NODE_ENV=default && wdio wdio.conf.js",
     "testenv": "export NODE_ENV=test && wdio wdio.conf.js",
-    "eng01": "export NODE_ENV=eng01 && wdio wdio.conf.js",
+    "qa": "export NODE_ENV=qa && wdio wdio.conf.js",
     "staging": "export NODE_ENV=staging && wdio wdio.conf.js",
-    "browserstack": "export NODE_ENV=eng01 && wdio browserstack.wdio.conf.js"
+    "browserstack": "export NODE_ENV=qa && wdio browserstack.wdio.conf.js"
   },
   "keywords": [],
   "author": "",
